@@ -5,14 +5,17 @@ include "connect.php"
 
 ?>
 
-<div class="btn btn-danger btn-block"><?php
-echo "<h1>Learn-Arabic-for-free</h1>"
-?>
-</div>
+<form action="" class="login">
+    <input class="form-control" type="text" name="user" placeholder="username">
+    <input class="form-control" type="password" name="pass" placeholder="password">
+    <input class="btn btn-primary" type="submit" value="login">
+
+
+</form>
 <?php
 include "includes/templates/footer.php"
 ?>
 
 <?php 
-echo lang('Message').''.lang('Admin');
-?>
+// echo lang('Message')."   ".lang('Admin');
+?>  
